@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+body {
+  margin: 0;
+}
+
+.react-range__track {
+  background-color: lightgray;
+}
+
+.react-range__thumb {
+  background-color: #001937;
+  border-radius: 9999px;
+  height: 20px;
+  width: 20px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
